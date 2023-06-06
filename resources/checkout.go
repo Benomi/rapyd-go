@@ -7,6 +7,7 @@ type CreateCheckout struct {
 	Customer                    string   `json:"customer"`
 	StatementDescriptor         string   `json:"statement_descriptor"`
 	CancelCheckoutURL           string   `json:"cancel_checkout_url"`
+	MerchantReference 				 string  `json:"merchant_reference_id"`
 	CompleteCheckoutURL         string   `json:"complete_checkout_url"`
 	ErrorCheckoutURL            string   `json:"error_checkout_url"`
 	PaymentMethodTypeCategories []string `json:"payment_method_type_categories"`
