@@ -5,7 +5,6 @@ type CreateCheckout struct {
 	Country                     string   `json:"country"`
 	Currency                    string   `json:"currency"`
 	Customer                    string   `json:"customer"`
-	StatementDescriptor         string   `json:"statement_descriptor"`
 	CancelCheckoutURL           string   `json:"cancel_checkout_url"`
 	MerchantReference 				 string  `json:"merchant_reference_id"`
 	CompleteCheckoutURL         string   `json:"complete_checkout_url"`
